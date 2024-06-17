@@ -39,7 +39,6 @@ def fetch_ads(message):
         description = f"{title}\n{top_description_text}\n{middle_description_text}\n{bottom_description_text}\nhttps://divar.ir/v/{token}"
         bot.send_photo(chat_id=message.chat.id,caption=description,photo=photo)
         
-    
 
 
 bot.infinity_polling()
